@@ -1,0 +1,55 @@
+sudo su 
+yum install git -y
+which git
+git --version
+git config --global user.name "sony"
+git config --global user.email "sonyyeleeshagari@gmail.com"
+git config --list
+mkdir mumbaigit
+ls
+cd mumbaigit/
+git init
+cat > sony
+Hi,This is Mumbai Region  (ctrl d)
+git status
+git add .
+git status
+git commit -m "This is my first commit"
+git log
+git status
+git show ID
+
+
+git remote add origin ip(github)
+git push -u origin master
+
+git remote set-url origin https://github
+
+
+https://github.com/sony2411/GitHub.git
+
+https://github.com/sony2411/New.git
+
+https://github.com/sony2411/Singapure.git
+
+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
+
+
+===========
+889d867eedfaf9d271da8dda37e621756d735123
+
+426b4e3c395a7f0eaee3f82dc8f6f1c053c2fb62
+
+=======================================================
+git branch demo  (demo is branch name)
+git branch
+ls
+git checkout demo
+git branch
+git log --oneline
+cat > branchfile
+write msg
+ls
+git add .
+git commit -m ""
+git status
